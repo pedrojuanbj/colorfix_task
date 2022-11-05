@@ -48,6 +48,16 @@ The thinking hands on approach on this can be found at the raw_notebook.ipynb
 # Usage
 This is meant to be used as a semi-automated script:
 1. **main.py** : Main script that puts together the whole approach described above and plots relevant info. 
-2. **input_reader.py** : Takes care of the STEP1 with functions for reading in the data and plotting it.  
-3. **prediction_model.py** : Takes care of the STEP2, STEP3 and STEP4 with functions for prediction, calculating E and 
+2. **input_reader.py** : Takes care of the **STEP1** with functions for reading in the data and plotting it.  
+3. **prediction_model.py** : Takes care of the **STEP2, STEP3** and **STEP4** with functions for prediction, calculating E and 
 a wrapper for calculating accuracies at wavelengths and finding the best one to predict concentration. 
+
+# Installation requirements
+
+To run this code you will need the required packages that can be found at requirements.txt, those are the ones 
+I had installed while working, which are:
+1. **matplotlib** I used version 3.5.3
+2. **numpy** I used version 1.21.5
+3. **panda**s I used version 1.2.3
+
+Regarding python, I have run it Python 3.7.12 and tested it on Python >= 3.8. 
