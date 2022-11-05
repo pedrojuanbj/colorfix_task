@@ -38,6 +38,8 @@ plt.xticks(range(0, len(lambdas))[::20], lambdas[::20], rotation=60)
 plt.ylabel("Root Mean Squared Error (RMSE)")
 plt.xlabel("Wavelengths ($\lambda$)")
 plt.legend()
+plt.tight_layout()
+plt.savefig("best_rmse_lambda.png")
 plt.show()
 
 best_lmbd = lambdas[best_idx]

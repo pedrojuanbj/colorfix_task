@@ -56,6 +56,8 @@ class sample():
         plt.ylabel("Absorbance Value")
         plt.xlabel("Wavelengths ($\lambda$)")
         plt.legend()
+        plt.tight_layout()
+        plt.savefig("raw.png")
         plt.show()
 
         return
@@ -80,6 +82,8 @@ class sample():
         plt.ylabel("Absorbance Value")
         plt.xlabel("Wavelengths ($\lambda$)")
         plt.legend()
+        plt.tight_layout()
+        plt.savefig("corrected.png")
         plt.show()
 
         return
